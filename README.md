@@ -7,3 +7,6 @@
 > 程式語言  
 - HTML
 
+HTML特殊符號
+https://www.ifreesite.com/html-entities.htm
+
