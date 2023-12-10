@@ -4,30 +4,123 @@
 <head>
     <meta charset="utf-8">
     <title>健身網站</title>
+    <style>
+        .title {
+            color: rgb(255, 255, 255);
+            background-color: rgb(165, 165, 176);
+            /* 1rem=16px */
+            font-size: 64px;
+            height: 5rem;
+            line-height: 5rem;
+            margin: 32px 32px;
+            padding: 12px 6px 12px 6px;
+            text-align: center;
+        }
+        .subtitle{
+            color: rgb(255, 255, 255);
+            background-color: rgb(165, 165, 176);
+            border-radius: 12px;
+            font-size: 32px;
+            height: 3rem;
+            line-height: 3rem;
+            margin: 12px 0px;
+            padding-left: 12px;
+            
+        }
+        #container{
+            width: 80%;
+            margin: 0px auto;
+            text-align: center;
+        }
+
+        .text-1{
+            background-color: blanchedalmond;
+            padding: 3px 12px;
+            text-align: left;
+            font-family: 'Microsoft JhengHei';
+        }
+
+        .text-2{
+            background-color:yellow;
+            padding: 6px;
+            color: rgb(11, 11, 11);
+            border-radius: 12px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        .text-3{
+            font-size: 32px;
+        }
+
+        mark{
+            background-color: rgb(255, 47, 47);
+        }
+
+        .good-line{
+            text-align: left;
+        }
+
+        .good-line a{
+            text-decoration: none;
+            color: orange;
+        }
+        .good-line a:hover{
+            color: blueviolet;
+        }
+
+        #image{
+            background-color:blanchedalmond ;
+        }
+
+        #image img{
+            background-color: white;
+            padding: 3px;
+
+        }
+
+        body{
+            background-color: white;
+            font-family: 'Microsoft JhengHei';
+        }
+    </style>
+
 </head>
 <body>
     <!--註解區-->
     <!-- 註解區 command+/-->
-    <h1>何謂健身?</h1>
-
-
+<div id="container">
+<div class="title">何謂健身？</div>
+<div class="text-1">
 <h3>健身，英文稱為workout，健身這兩個字拆開來的意思就是健康身體，通過各種運動方式或方法來增強力量、增加肌肉量、柔韌性、耐力，以及提高協調和控制身體各部分的能力來使我們的身體更強健。</h3>
 
-<p>除了塑造好身材，透過健身可以刺激我們身體的肌肉，再搭配飲食的控制，這能大大幫助我們的肌肉量增加，以及讓我們的肌肉更加的結實。
+<p class="text-2">除了塑造好身材，透過健身可以刺激我們身體的肌肉，再搭配飲食的控制，這能大大幫助我們的肌肉量增加，以及讓我們的肌肉更加的結實。
 
 <br><em>如果你對健身仍然保持著懷疑的態度，那你大可以去看看你喜歡的健身老戲骨幹，他們是如何做到年過50/60歲，依舊在
-舞臺上或者是電影螢幕上綻放光彩。<br><b><u><span>答案就是堅持運動健身!</span></u></b></em>
+舞臺上或者是電影螢幕上綻放光彩。
+<mark>
+<br>
+<b>
+    <u>
+        答案就是堅持
+        <span class="text-3">運動健身!</span>
+    </u>
+</b>
+</em>
+</mark>
 </p>
-<img src="./image/pic-1.jpg" alt="pic-1.jpg" width="32%">
-<img src="./image/pic-2.jpg" alt="pic-2.jpg" width="32%">
-<img src="./image/pic-3.jpg" alt="pic-3.jpg" width="32%">
+</div>
+<div id="image">
+<img src="./image/pic-1.jpg" alt="pic-1.jpg" width="30%">
+<img src="./image/pic-2.jpg" alt="pic-2.jpg" width="30%">
+<img src="./image/pic-3.jpg" alt="pic-3.jpg" width="30%">
+</div>
 <hr>
-
 <a href="https://fitnesstwenty.com/benefits-of-workout/" target="_blank">
 <img src="https://fitnesstwenty.com/wp-content/uploads/2020/10/71.jpg" alt="71.jpg" width="100%">
 </a>
-<h2>健身的10個好處</h2>
-<ol>
+
+<div class="subtitle">健身的10個好處</div>
+<ol class="text-1" style="padding-left: 32px;">
     <li>增加基礎代謝率</li>
     <li>預防疾病和提高免疫力</li>
     <li>改善心情</li>
@@ -38,8 +131,11 @@
     <li>提升睡眠品質</li>
     <li>釋放工作的壓力</li>
     <li>增加肌肉助於減肥</li>
-    <hr>
-    <h2>好文章連結</h2>
+</ol>
+<hr>
+
+ <div class="subtitle">好文章連結</div>
+ <div class="good-line">
     <A href="https://www.fe-amart.com.tw/index.php/life-style/life-info/secret-recipe/hero-6"target=_self">
         健身初學者必看！10個常見的健身迷思</A><br>
     <a href="https://fitnesstwenty.com/benefits-of-workout/"target=_self">
@@ -48,12 +144,13 @@
     健身的類型（找到適合你的健身方式！）</A><br>
     <A href="https://fitnesstwenty.com/benefits-of-workout/#%E7%B8%BD%E7%B5%90"target=_self">
         總結</A><br>
+</div>
         <p><small>節錄至<a href="https://fitnesstwenty.com/benefits-of-workout/">https://fitnesstwenty.com/benefits-of-workout/</a></small>
         </p>
-</ol>
-
+    
 <hr>
-<h2>一天所需卡路里</h2>
+
+<div class="subtitle">一天所需卡路里</div>
 <table border="3">
     <thead>
         <tr>
@@ -92,7 +189,7 @@
 <a href="./bmi.html">BMI計算器</a>
 <hr>
 
-<h2>健身影片</h2>
+<div class="subtitle">健身影片</div>
 <iframe width="48%" height="633" src="https://www.youtube.com/embed/XZkkJ2Ba4h0" title="腹肌快速出現！【15分鐘 間歇有氧】訓練腹肌同時減脂 最高CP值練法！│健人訓練│ 2023ep16" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <iframe width="48%" height="633" src="https://www.youtube.com/embed/MzLZXUnekuI" title="健身房新手【4天練全身課表】每天只做CP值最高的三個精華動作！│健人訓練│ 2021ep31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <hr>
@@ -111,7 +208,7 @@
 </form>
 
 <p>&copy; 2023 Ryan.F</p>
-
+</div>
 </body>
 
 </html>
