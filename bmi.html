@@ -17,7 +17,7 @@
     <h1 class="subtitle">BMI計算機</h1>
     <form accept="" method="git">
         <label for="username">姓名</label>
-        <input type="text" name="username" id="username" placeholder="請輸入姓名">
+        <input type="text" name="username" id="name" placeholder="請輸入姓名">
         <br>
         <label for="name">身高</label>
         <input type="number" step="0.1" name="height" id="height" placeholder="公分" required>
@@ -25,10 +25,15 @@
         <label for="name">體重</label>
         <input type="number" step="0.1" name="weight" id="weight" placeholder="公斤" required>
         <br>
-        <br>
-        <button style="background-color: bisque;border-radius: 3px;" type="submit">計算</button>
+        <div id="result">
+            BMI:<span class="bmi"></span>
+            <span class="comment" style="font-size: 24px;color: red;"></span>
+        </div>
+        <button style="background-color: bisque;border-radius: 3px;" type="button" id="calc">計算</button>
+        <button style="background-color: bisque;border-radius: 3px;" type="reset">重設</button>
     </form>
     <a href="./index.html">返回首頁</a>
     </div>
+    <script src="./js/bmi.js"></script>
 </body>
 </html>
